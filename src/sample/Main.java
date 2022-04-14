@@ -9,6 +9,7 @@ import javafx.scene.control.*;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -37,9 +38,13 @@ public class Main extends Application {
 
     Button startGameButton = new Button("Start Button");
 
+    //Game Scene
+    Button mainButton = new Button("Return to betting scene");
+
     @Override
     public void start(final Stage primaryStage) throws Exception{
 
+        //Betting Scene
         horseList.getChildren().addAll(horse1, horse2, horse3);
 
         betButtonsList.getChildren().addAll(bet1, bet2, bet3);
@@ -68,6 +73,12 @@ public class Main extends Application {
         bettingSceneLayout.setCenter(startGameButton);
 
         bettingScene = new Scene(bettingSceneLayout, 300, 300);
+
+        //Game Scene
+        StackPane gameSceneLayout = new StackPane();
+        mainButton.setOnAction(e -> primaryStage.setScene(bettingScene));
+        gameSceneLayout.getChildren().addAll(mainButton);
+        gameScene = new Scene(gameSceneLayout, 300, 300);
 
         primaryStage.setTitle("CSCI2020U-Group-Project");
         primaryStage.setResizable(false);
