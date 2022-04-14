@@ -39,7 +39,8 @@ public class Server {
         }
 
     }
-    public static void main(String[] args){
+
+    public void host(){
         ServerSocket serve = null;
         try {
             serve = new ServerSocket(6666); //0 -> lets your OS select a port; port > 1024
@@ -64,4 +65,5 @@ public class Server {
             e.printStackTrace();
         }
     }
+
 }

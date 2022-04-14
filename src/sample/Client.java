@@ -6,8 +6,7 @@ import java.util.*;
 
 public class Client {
 
-    public static void main(String args[]){
-
+    public void connect(){
         try (Socket sock = new Socket("localhost", 6666)){
             System.out.println("Connected to server...");
             System.out.println("Input \"done\" to terminate connection...");
@@ -25,6 +24,5 @@ public class Client {
             e.printStackTrace();
         }
         System.out.println("Connection terminated...");
-
     }
 }

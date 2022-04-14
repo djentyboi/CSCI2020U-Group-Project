@@ -11,4 +11,8 @@ import java.util.ResourceBundle;
 
 public class Controller {
 
+    public static void connectToServer(){
+
+    }
+
 }
