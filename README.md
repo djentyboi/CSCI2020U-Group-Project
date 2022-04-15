@@ -7,6 +7,7 @@
 
 ## Project Description
 This project is a betting game using a client server architecture.  The client is the player side and the server side runs the game.  A player will guess a number between 1-4 and the server will generate a random number then compare it to the player guess.  If the guess is correct then a point is added to the score.
+![alt text](https://github.com/djentyboi/CSCI2020U-Group-Project/blob/master/Images/finishedProject "ProjectImage")
 
 ## How to Run
 ### 1. Run Project and wait for the server to send a waiting message
