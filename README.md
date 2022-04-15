@@ -11,15 +11,15 @@ This project is a betting game using a client server architecture.  The client i
 ![alt text](https://github.com/djentyboi/CSCI2020U-Group-Project/blob/master/Images/finishedProject "ProjectImage")
 
 ## How to Run
-### 1. Run Project and wait for the server to send a waiting message
+### 1. Run Project and wait for the server to send a waiting message.
 
 ### 2. Right click on the client class and run it as well.  It should boot and a window should pop up for the game.
 
-### 3. Enter player guess to the terminal
+### 3. Enter player guess to the terminal.
 
-### 4. Press enter game in the pop up window to see player guess and computer number.  Total score is show as well
+### 4. Press enter game in the pop up window to see player guess and computer number.  Total score is show as well.
 
-### 5. To continue guessing, press reset in the window, enter a new number in the terminal, then press enter game in the window to see the updated changes
+### 5. To continue guessing, press reset in the window, enter a new number in the terminal, then press enter game in the window to see the updated changes.
 
 ## Other Resources
 Libraries Used:
