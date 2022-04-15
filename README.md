@@ -9,9 +9,9 @@
 This project is a betting game using a client server architecture.  The client is the player side and the server side runs the game.  A player will guess a number between 1-4 and the server will generate a random number then compare it to the player guess.  If the guess is correct then a point is added to the score.
 
 ## How to Run
-### 1.
+### 1. Run Project and wait for the server to send a waiting message
 
-### 2.
+### 2. Right click on the client class and run it as well.  It should boot and a window should pop up for the game.
 
 ### 3.
 
