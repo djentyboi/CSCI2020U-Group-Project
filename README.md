@@ -15,7 +15,11 @@ This project is a betting game using a client server architecture.  The client i
 
 ### 2. Right click on the client class and run it as well.  It should boot and a window should pop up for the game.
 
-### 3.
+### 3. Enter player guess to the terminal
+
+### 4. Press enter game in the pop up window to see player guess and computer number.  Total score is show as well
+
+### 5. To continue guessing, press reset in the window, enter a new number in the terminal, then press enter game in the window to see the updated changes
 
 ## Other Resources
 Libraries Used:
